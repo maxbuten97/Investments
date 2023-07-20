@@ -1,0 +1,69 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+.title {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	text-transform: uppercase;
+}
+
+.answers_title {
+	display: flex;
+	cursor: pointer;
+}
+
+.investors,
+.companies {
+	position: relative;
+	margin-top: 100px;
+	flex-basis: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+}
+
+.investors::after,
+.companies::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 6px;
+	background-color: rgba(210, 210, 210, 1);
+	top: 100px;
+	left: 0;
+}
+.investors::after {
+	top: 98px;
+	height: 9px;
+	background-color: rgba(122, 12, 232, 1);
+}
+.answers_block {
+	padding-left: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 120px;
+	max-height: 100%;
+}
+.num,
+.question {
+	width: 50%;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(32, 21, 44, 1);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.question:hover {
+	color: rgba(76, 53, 99, 1);
+}
+.num {
+	margin-right: 15px;
+}

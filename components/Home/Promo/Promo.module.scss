@@ -1,0 +1,87 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+.row {
+	position: relative;
+}
+.title {
+	max-width: 867px;
+	color: rgba(76, 53, 99, 1);
+	font-size: 52px;
+	line-height: 74px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 75px;
+}
+
+.text {
+	margin-top: 40px;
+	max-width: 367px;
+	color: rgba(76, 53, 99, 1);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.rectangle {
+	position: absolute;
+	top: 0;
+	right: -230px;
+}
+
+.for_block {
+	max-width: 1424px;
+	margin: 0 auto;
+	margin-top: 85px;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+	padding: 40px;
+	padding-bottom: 36px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 45px 20px rgba(97, 97, 97, 0.253);
+	-moz-box-shadow: 0px 0px 45px 20px rgba(97, 97, 97, 0.253);
+	box-shadow: 0px 0px 45px 20px rgba(97, 97, 97, 0.253);
+}
+
+.for_block::after {
+	position: absolute;
+	content: "";
+	top: 10%;
+	right: 50%;
+	height: 80%;
+	width: 3px;
+	background-color: rgba(97, 97, 97, 0.15);
+}
+.investors,
+.companies {
+	max-width: 450px;
+	margin-bottom: 35px;
+}
+
+.investors {
+	margin-left: 110px;
+}
+
+.companies {
+	margin-right: 110px;
+}
+.investors_title,
+.companies_title {
+	font-size: 30px;
+	color: rgba(76, 53, 99, 1);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.investors_text,
+.companies_text {
+	margin-top: 20px;
+	font-size: 20px;
+	color: rgba(76, 53, 99, 1);
+	font-weight: 300;
+}

@@ -1,0 +1,43 @@
+.Navigation {
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+	margin-top: 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.list_item {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.link {
+	text-decoration: dotted;
+	position: relative;
+	color: black;
+	transition: color 0.4s ease;
+}
+.link::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px; /* Расстояние от текста */
+	width: 100%;
+	height: 1px; /* Толщина линии */
+	background-color: black;
+	transform: scaleX(0);
+	transition: transform 0.4s ease;
+}
+
+.link:hover::after {
+	transform: scaleX(1); /* Увеличиваем линию при hover */
+}
+
+.link:hover {
+	color: black; /* Задержка 0.4 секунды перед изменением цвета */
+}
