@@ -5,13 +5,17 @@ import Image from "next/image";
 
 export interface ICallbackProps {
   title: string;
+  color: string;
+  btn: string;
 }
 
-const Callback = ({ title }: ICallbackProps) => {
+const Callback = ({ title, color, btn }: ICallbackProps) => {
   return (
     <div className={s.form_callback}>
-      <div className={s.form_title}>{title}</div>
-      <div className={s.form_text}>
+      <div className={s.form_title} style={{ color }}>
+        {title}
+      </div>
+      <div className={s.form_text} style={{ color }}>
         и получать вознаграждение за привлечение компаний и инвесторов на
         платформу
       </div>
@@ -25,10 +29,10 @@ const Callback = ({ title }: ICallbackProps) => {
           }
         />
         <Button css={{ borderRadius: "6px" }} color="secondary" size="lg">
-          СТАТЬ ПАРТНЕРОМ
+          {btn}
         </Button>
       </div>
-      <div className={s.policy_block}>
+      <div className={s.policy_block} style={{ color }}>
         Ввод номера телефона подтверждает ваше согласие с{" "}
         <Link className={s.policy} css={{ color: "blue" }}>
           Политикой обработки персональных данных

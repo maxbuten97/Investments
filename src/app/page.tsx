@@ -12,8 +12,8 @@ function MyApp() {
       <div className={s.container}>
         <Header />
         <Navigation />
-        {/* <Companies /> */}
-        <Home />
+        <Companies />
+        {/* <Home /> */}
       </div>
 
       <Footer />

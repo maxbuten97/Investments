@@ -1,0 +1,57 @@
+.GetInvestments {
+	margin-top: 150px;
+}
+
+.title {
+	color: rgba(76, 53, 99, 1);
+	font-size: 45px;
+	line-height: 74px;
+	font-weight: 700;
+	padding-top: 75px;
+	text-align: center;
+}
+
+.answers_block {
+	max-width: 80%;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.answer {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.answer_text {
+	font-size: 22px;
+	font-weight: 600;
+}
+.num {
+	margin-right: 20px;
+}
+
+.answer_subtext {
+	margin-left: 40px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.application {
+	margin-left: 40px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.invest_btn {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.modal_header p {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

@@ -11,6 +11,11 @@ import {
   Label,
   Wave1,
   Wave2,
+  People,
+  Cloud,
+  ArrowUP,
+  Time,
+  Search,
 } from "../../public/svg/index";
 type IconComponentProps = { name: string; className?: string };
 type IconTypes = { [name: string]: ReactSVGComponent };
@@ -25,6 +30,11 @@ const iconTypes: IconTypes = {
   label: Label,
   wave1: Wave1,
   wave2: Wave2,
+  people: People,
+  cloud: Cloud,
+  arrowUP: ArrowUP,
+  time: Time,
+  search: Search,
 };
 
 const Icon: FC<IconComponentProps> = ({ name, className, ...props }) => {

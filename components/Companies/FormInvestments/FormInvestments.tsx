@@ -1,8 +1,15 @@
 "use client";
 import Icon from "@/components/IconComponent/Icon";
 import s from "./FormInvestments.module.scss";
+import { Button, Input } from "@nextui-org/react";
+import Link from "next/link";
 
-const FormInvestments = () => {
+interface IFormInvest {
+  title: string;
+  text: string;
+}
+
+const FormInvestments = ({ title, text }: IFormInvest) => {
   return (
     <div className={s.FormInvestments}>
       <div className={s.container}>
@@ -11,10 +18,42 @@ const FormInvestments = () => {
           <Icon name="wave2" className={s.wave2} />
         </div>
         <div className={s.content}>
-          <div className={s.title}>
-            УЗНАЙТЕ, ПОДХОДИТ ЛИ ВАШЕЙ КОМПАНИИ ЭТОТ СПОСОБ ПРИВЛЕЧЕНИЯ
-            ИНВЕСТИЦИЙ
+          <div className={s.title}>{title}</div>
+          <div className={s.subtitle}>{text}</div>
+          <div className={s.input_block}>
+            <div className={s.input_name}>
+              <Input
+                className={s.input}
+                bordered
+                placeholder="Имя"
+                size="xl"
+                css={{ width: 500, backgroundColor: "#f8f1ff" }}
+              />
+            </div>
+            <div className={s.input_tel}>
+              <Input
+                className={s.input}
+                bordered
+                placeholder="Телефон"
+                size="xl"
+                css={{ width: 500, backgroundColor: "#f8f1ff" }}
+              />
+            </div>
           </div>
+          <div className={s.person}>
+            Согласен с{" "}
+            <Link className={s.person_link} href="/">
+              Политикой обработки персональных данных
+            </Link>
+          </div>
+          <Button
+            className={s.btn}
+            css={{ borderRadius: "6px", width: 500 }}
+            color="secondary"
+            size="xl"
+          >
+            ОСТАВИТЬ ЗАЯВКУ
+          </Button>
         </div>
       </div>
     </div>

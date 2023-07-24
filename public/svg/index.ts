@@ -7,3 +7,8 @@ export { default as Checkmark } from "./checkmark.svg";
 export { default as Label } from "./label.svg";
 export { default as Wave1 } from "./wave1.svg";
 export { default as Wave2 } from "./wave2.svg";
+export { default as People } from "./people.svg";
+export { default as Cloud } from "./cloud.svg";
+export { default as ArrowUP } from "./arrowUP.svg";
+export { default as Time } from "./time.svg";
+export { default as Search } from "./search.svg";

@@ -1,0 +1,30 @@
+.Cases {
+	margin-top: 150px;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.collect {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 15px;
+	padding-top: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.already {
+	text-transform: lowercase;
+}
+
+.btn {
+	margin: 0 auto;
+	margin-top: 40px;
+}

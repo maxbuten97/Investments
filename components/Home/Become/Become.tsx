@@ -37,7 +37,11 @@ const Become = () => {
               </div>
             </div>
           </div>
-          <Callback title="Если вы хотите стать партнером Finmuster" />
+          <Callback
+            btn="СТАТЬ ПАРТНЕРОМ"
+            color="#4e3563"
+            title="Если вы хотите стать партнером Finmuster"
+          />
         </div>
       </div>
     </div>
