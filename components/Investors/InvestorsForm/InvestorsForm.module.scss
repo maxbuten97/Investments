@@ -1,0 +1,20 @@
+.card,
+.card_reverse {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	max-width: 400px;
+	background-color: #fff;
+	transform: rotateX(0) rotateY(15deg) rotateZ(15deg);
+	-webkit-box-shadow: 27px -40px 190px 29px rgba(170, 30, 165, 0.3);
+	-moz-box-shadow: 27px -40px 190px 29px rgba(170, 30, 165, 0.3);
+	box-shadow: 27px -40px 190px 29px rgba(170, 30, 165, 0.3);
+}
+
+.card_reverse {
+	right: 250px;
+	z-index: 0;
+	transform: rotateX(0) rotateY(-15deg) rotateZ(-15deg);
+	opacity: 0.2;
+}

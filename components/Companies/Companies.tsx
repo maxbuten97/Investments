@@ -3,11 +3,11 @@ import Callback from "shared/UI-kit/Callback/Callback";
 import s from "./Companies.module.scss";
 import BannerComapanies from "./BannerCompanies/BannerCompanies";
 import FormInvestments from "./FormInvestments/FormInvestments";
-import Cases from "./Cases/Cases";
 import GetInvestments from "./GetInvestments/GetInvestments";
 import WhyBlock from "./WhyBlock/WhyBlock";
 import Visor from "./Visor/Visor";
 import Questions from "./Questions/Questions";
+import Cases from "./Cases/Cases";
 const Companies = () => {
   return (
     <div className={s.Companies}>

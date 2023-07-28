@@ -1,5 +1,9 @@
 .Header {
-	margin-top: 30px;
+	position: relative;
+	z-index: 4;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: #fff;
 }
 .container {
 	max-width: 1440px;

@@ -1,0 +1,39 @@
+.SuccessDeals {
+	margin-top: 150px;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	max-width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content {
+	display: flex;
+	margin-top: 100px;
+}
+.column {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 40px;
+}
+.block {
+	max-width: 500px;
+}
+.content_title {
+	font-size: 26px;
+	color: rgba(76, 53, 99, 1);
+	font-weight: 700;
+}
+
+.text {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 30px;
+	color: rgba(76, 53, 99, 1);
+}

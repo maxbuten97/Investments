@@ -1,0 +1,35 @@
+.QuestionsInvestors {
+	margin-top: 100px;
+}
+
+.title {
+	display: flex;
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	justify-content: center;
+}
+
+.answers_block {
+	padding-left: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	max-height: 100%;
+}
+.num,
+.question {
+	width: 50%;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(32, 21, 44, 1);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.question:hover {
+	color: rgba(76, 53, 99, 1);
+}
+.num {
+	margin-right: 15px;
+}

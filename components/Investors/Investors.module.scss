@@ -1,0 +1,35 @@
+.Investors {
+	padding-bottom: 100px;
+	z-index: 0;
+	background: linear-gradient(0deg, #f6f2f2 0%, rgba(241, 241, 241, 1) 95%, rgba(210, 210, 210, 0.822) 100%);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.row {
+	padding-top: 100px;
+	position: relative;
+}
+
+.companies {
+	margin-top: 100px;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	max-width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.cards {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}

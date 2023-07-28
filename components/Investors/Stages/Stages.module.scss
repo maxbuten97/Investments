@@ -1,0 +1,61 @@
+.Stages {
+	margin-top: 100px;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 80px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 60px;
+	position: relative;
+	background-color: #fff;
+	width: 45%;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: start;
+	line-height: 28px;
+	-webkit-box-shadow: 0px 10px 58px 4px rgba(65, 73, 79, 0.35);
+	-moz-box-shadow: 0px 10px 58px 4px rgba(65, 73, 79, 0.35);
+	box-shadow: 0px 10px 58px 4px rgba(65, 73, 79, 0.35);
+}
+
+.num {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	height: 100px;
+	width: 100px;
+	background-color: rgba(122, 12, 232, 1);
+	border-radius: 25px;
+	color: #fff;
+	font-size: 40px;
+}
+
+.content_title {
+	font-size: 22px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+}
+
+.text {
+	padding-top: 10px;
+	color: rgba(76, 53, 99, 1);
+}

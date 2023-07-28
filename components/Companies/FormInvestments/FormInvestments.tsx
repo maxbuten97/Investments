@@ -27,7 +27,10 @@ const FormInvestments = ({ title, text }: IFormInvest) => {
                 bordered
                 placeholder="Имя"
                 size="xl"
-                css={{ width: 500, backgroundColor: "#f8f1ff" }}
+                css={{
+                  width: 500,
+                  backgroundColor: "#f8f1ff",
+                }}
               />
             </div>
             <div className={s.input_tel}>
