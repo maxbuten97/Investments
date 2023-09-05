@@ -12,3 +12,6 @@ export { default as Cloud } from "./cloud.svg";
 export { default as ArrowUP } from "./arrowUP.svg";
 export { default as Time } from "./time.svg";
 export { default as Search } from "./search.svg";
+export { default as PinkArrow } from "./pinkArrow.svg";
+export { default as Union } from "./union.svg";
+export { default as Diamond } from "./Diamond.svg";

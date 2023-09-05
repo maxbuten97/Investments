@@ -1,0 +1,29 @@
+.Rewards {
+	margin-top: 150px;
+}
+.title {
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	margin: 0 auto;
+	text-align: center;
+}
+.list_percent {
+	display: flex;
+	justify-content: space-between;
+}
+.block {
+	display: flex;
+	gap: 30px;
+	padding: 40px 30px;
+	margin-top: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 32%;
+	border-radius: 20px;
+	height: 250px;
+	-webkit-box-shadow: 0px 0px 30px 4px rgba(65, 73, 79, 0.4);
+	-moz-box-shadow: 0px 0px 30px 4px rgba(65, 73, 79, 0.4);
+	box-shadow: 0px 0px 30px 4px rgba(65, 73, 79, 0.4);
+}

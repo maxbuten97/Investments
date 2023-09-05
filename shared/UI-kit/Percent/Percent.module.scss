@@ -1,0 +1,27 @@
+.num_block {
+	position: relative;
+	display: flex;
+	font-size: 100px;
+	padding-right: 30px;
+	background-color: rgba(122, 12, 232, 1);
+	border-radius: 20px;
+	color: #fff;
+	rotate: (-10deg);
+}
+
+.num,
+.percent {
+	display: inline-block;
+	rotate: (10deg);
+	font-weight: 700;
+}
+.percent {
+	font-size: 30px;
+	margin-top: 80px;
+}
+
+.text {
+	font-size: 20px;
+	color: rgba(76, 53, 99, 1);
+	line-height: 30px;
+}

@@ -7,17 +7,17 @@ export interface ICallbackProps {
   title: string;
   color: string;
   btn: string;
+  text?: string;
 }
 
-const Callback = ({ title, color, btn }: ICallbackProps) => {
+const Callback = ({ title, color, btn, text }: ICallbackProps) => {
   return (
     <div className={s.form_callback}>
       <div className={s.form_title} style={{ color }}>
         {title}
       </div>
       <div className={s.form_text} style={{ color }}>
-        и получать вознаграждение за привлечение компаний и инвесторов на
-        платформу
+        {text}
       </div>
       <div className={s.callback_block}>
         <Input
@@ -28,7 +28,11 @@ const Callback = ({ title, color, btn }: ICallbackProps) => {
             <Image src={`${PATH}flag.png`} alt="ru" width={15} height={15} />
           }
         />
-        <Button css={{ borderRadius: "6px" }} color="secondary" size="lg">
+        <Button
+          css={{ borderRadius: "6px", height: "56px" }}
+          color="secondary"
+          size="lg"
+        >
           {btn}
         </Button>
       </div>

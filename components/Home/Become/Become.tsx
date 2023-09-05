@@ -3,7 +3,6 @@ import Image from "next/image";
 import s from "./Become.module.scss";
 import { PATH } from "@/components/Header/Header";
 import Icon from "@/components/IconComponent/Icon";
-import { Button, Input, Link } from "@nextui-org/react";
 import Callback from "shared/UI-kit/Callback/Callback";
 const Become = () => {
   return (
@@ -38,6 +37,7 @@ const Become = () => {
             </div>
           </div>
           <Callback
+            text="и получать вознаграждение за привлечение компаний  и инвесторов на платформу"
             btn="СТАТЬ ПАРТНЕРОМ"
             color="#4e3563"
             title="Если вы хотите стать партнером Finmuster"

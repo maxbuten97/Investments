@@ -16,6 +16,9 @@ import {
   ArrowUP,
   Time,
   Search,
+  PinkArrow,
+  Union,
+  Diamond,
 } from "../../public/svg/index";
 type IconComponentProps = { name: string; className?: string };
 type IconTypes = { [name: string]: ReactSVGComponent };
@@ -35,6 +38,9 @@ const iconTypes: IconTypes = {
   arrowUP: ArrowUP,
   time: Time,
   search: Search,
+  pinkArrow: PinkArrow,
+  union: Union,
+  diamond: Diamond,
 };
 
 const Icon: FC<IconComponentProps> = ({ name, className, ...props }) => {

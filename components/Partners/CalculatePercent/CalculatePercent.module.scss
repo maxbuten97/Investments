@@ -1,0 +1,39 @@
+.CalculatePercent {
+	margin-top: 150px;
+}
+
+.title {
+	display: flex;
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	justify-content: center;
+	text-align: center;
+}
+
+.calculate_block {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.calculate_content {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 40%;
+	flex-basis: 50%;
+}
+.percent {
+	min-width: 140px;
+}
+.calculate {
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+}
+
+.text {
+	margin-top: 20px;
+	font-size: 20px;
+	color: rgba(32, 21, 44, 1);
+}

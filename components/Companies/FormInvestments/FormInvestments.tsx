@@ -1,7 +1,7 @@
 "use client";
 import Icon from "@/components/IconComponent/Icon";
 import s from "./FormInvestments.module.scss";
-import { Button, Input } from "@nextui-org/react";
+import { Button, Checkbox, Input } from "@nextui-org/react";
 import Link from "next/link";
 
 interface IFormInvest {
@@ -44,10 +44,12 @@ const FormInvestments = ({ title, text }: IFormInvest) => {
             </div>
           </div>
           <div className={s.person}>
-            Согласен с{" "}
-            <Link className={s.person_link} href="/">
-              Политикой обработки персональных данных
-            </Link>
+            <Checkbox>
+              Согласен с
+              <Link className={s.person_link} href="/">
+                Политикой обработки персональных данных
+              </Link>
+            </Checkbox>
           </div>
           <Button
             className={s.btn}
