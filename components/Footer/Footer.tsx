@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./Footer.module.scss";
 import Image from "next/image";
-import { PATH } from "../Header/Header";
 import Icon from "../IconComponent/Icon";
+import { PATH } from "shared/assets";
 const Footer = () => {
   return (
     <div className={s.Footer}>

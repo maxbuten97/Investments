@@ -14,7 +14,7 @@ const Navigation = () => {
             <Link href="/">Инвесторам</Link>
           </div>
           <div className={s.link}>
-            <Link href="/">Компаниям</Link>
+            <Link href="/companies">Компаниям</Link>
           </div>
           <div className={s.link}>
             <Link href="/">Партнерам</Link>

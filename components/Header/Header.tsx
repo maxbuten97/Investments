@@ -7,8 +7,7 @@ import Link from "next/link";
 import Icon from "../IconComponent/Icon";
 import { Modal, Text, Input, Row, Checkbox } from "@nextui-org/react";
 import React from "react";
-
-export const PATH = "/image/";
+import { PATH } from "shared/assets";
 
 const Header = () => {
   const [visible, setVisible] = React.useState(false);
