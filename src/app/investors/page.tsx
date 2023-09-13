@@ -1,11 +1,11 @@
 "use client";
 import s from "./Investors.module.scss";
 import CardItem from "shared/UI-kit/CardItem/CardItem";
-import InvestorsForm from "./InvestorsForm/InvestorsForm";
-import SuccessDeals from "./SuccessDeals/SuccessDeals";
-import Stages from "./Stages/Stages";
-import QuestionsInvestors from "./QuestionsInvestors/QuestionsInvestors";
-import FormInvestments from "../Companies/FormInvestments/FormInvestments";
+import InvestorsForm from "../../../components/Investors/InvestorsForm/InvestorsForm";
+import SuccessDeals from "../../../components/Investors/SuccessDeals/SuccessDeals";
+import Stages from "../../../components/Investors/Stages/Stages";
+import QuestionsInvestors from "../../../components/Investors/QuestionsInvestors/QuestionsInvestors";
+import FormInvestments from "../../../components/Companies/FormInvestments/FormInvestments";
 
 const Investors = () => {
   return (

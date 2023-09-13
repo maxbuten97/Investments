@@ -3,12 +3,12 @@
 import Callback from "shared/UI-kit/Callback/Callback";
 import s from "./Partners.module.scss";
 import Image from "next/image";
-import { PATH } from "../Header/Header";
-import Rewards from "./Rewards/Rewards";
-import CalculatePercent from "./CalculatePercent/CalculatePercent";
-import ExamplesOfPayments from "./ExamplesOfPayments/ExamplesOfPayments";
-import PartnersLink from "./PartnersLink/PartnersLink";
-import FormInvestments from "../Companies/FormInvestments/FormInvestments";
+import FormInvestments from "@/components/Companies/FormInvestments/FormInvestments";
+import CalculatePercent from "@/components/Partners/CalculatePercent/CalculatePercent";
+import ExamplesOfPayments from "@/components/Partners/ExamplesOfPayments/ExamplesOfPayments";
+import PartnersLink from "@/components/Partners/PartnersLink/PartnersLink";
+import Rewards from "@/components/Partners/Rewards/Rewards";
+import { PATH } from "shared/assets";
 
 const Partners = () => {
   return (

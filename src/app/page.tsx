@@ -1,12 +1,15 @@
 "use client";
-import RootLayout from "./layout";
-import type { AppProps } from "next/app";
-function MyApp({ Component, pageProps }: AppProps) {
+import Home from "@/components/Home/Home";
+import s from "./page.module.scss";
+
+function Page() {
   return (
-    <RootLayout>
-      <Component {...pageProps} />
-    </RootLayout>
+    <div className={s.MyApp}>
+      <div className={s.container}>
+        <Home />
+      </div>
+    </div>
   );
 }
 
-export default MyApp;
+export default Page;

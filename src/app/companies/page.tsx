@@ -1,13 +1,13 @@
 "use client";
 import Callback from "shared/UI-kit/Callback/Callback";
 import s from "./Companies.module.scss";
-import BannerComapanies from "./BannerCompanies/BannerCompanies";
-import FormInvestments from "./FormInvestments/FormInvestments";
-import GetInvestments from "./GetInvestments/GetInvestments";
-import WhyBlock from "./WhyBlock/WhyBlock";
-import Visor from "./Visor/Visor";
-import Questions from "./Questions/Questions";
-import Cases from "./Cases/Cases";
+import Cases from "@/components/Companies/Cases/Cases";
+import FormInvestments from "@/components/Companies/FormInvestments/FormInvestments";
+import GetInvestments from "@/components/Companies/GetInvestments/GetInvestments";
+import Questions from "@/components/Companies/Questions/Questions";
+import Visor from "@/components/Companies/Visor/Visor";
+import WhyBlock from "@/components/Companies/WhyBlock/WhyBlock";
+import BannerCompanies from "@/components/Companies/BannerCompanies/BannerCompanies";
 const Companies = () => {
   return (
     <div className={s.Companies}>
@@ -21,7 +21,7 @@ const Companies = () => {
           />
         </div>
         <div className={s.banner}>
-          <BannerComapanies />
+          <BannerCompanies />
           <FormInvestments
             title="УЗНАЙТЕ, ПОДХОДИТ ЛИ ВАШЕЙ КОМПАНИИ ЭТОТ СПОСОБ ПРИВЛЕЧЕНИЯ
             ИНВЕСТИЦИЙ"
