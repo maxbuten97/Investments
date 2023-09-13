@@ -1,8 +1,10 @@
+/**Интерфейс для списка сделок */
 interface ISuccessDeals {
   id: string;
   title: string;
   text: string;
 }
+/** Список преимуществ сделок */
 export const successDeals: ISuccessDeals[] = [
   {
     id: "1",

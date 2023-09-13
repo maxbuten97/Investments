@@ -1,3 +1,4 @@
+/**Интерфейс для блока с ответами*/
 interface IAnswer {
   id: string;
   num: string;
@@ -5,7 +6,7 @@ interface IAnswer {
   subtext: string;
   application?: string;
 }
-
+/**Список ответов на странице "Компаниям"*/
 export const answers: IAnswer[] = [
   {
     id: "1",

@@ -1,9 +1,10 @@
+/** Интерфейс для карточек на странице Команиям */
 interface ICard {
   id: string;
   icon: string;
   text: string;
 }
-
+/** Список карточек на странице Компаниям */
 export const cards: ICard[] = [
   {
     id: "1",

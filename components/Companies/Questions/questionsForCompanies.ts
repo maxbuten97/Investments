@@ -1,9 +1,10 @@
+/**Интерфейс для вопросов (компаниям) */
 export interface IQuestionForCompanies {
   id: string;
   title: string;
   text: string;
 }
-
+/**Список Вопросов и ответов (компаниям) */
 export const questions: IQuestionForCompanies[] = [
   {
     id: "1",

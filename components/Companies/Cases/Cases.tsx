@@ -1,7 +1,7 @@
 "use client";
 import { Grid, Card, Row, Text, Button } from "@nextui-org/react";
 import s from "./Cases.module.scss";
-import { list } from "./case";
+import { cases } from "./case";
 import { PATH } from "shared/assets";
 
 const Cases = () => {
@@ -10,8 +10,8 @@ const Cases = () => {
       <div className={s.container}>
         <div className={s.list_item}>
           <Grid.Container gap={3} justify="flex-start">
-            {list.map((item, index) => (
-              <Grid xs={4} sm={4} key={index}>
+            {cases.map((item, index) => (
+              <Grid xs={4} sm={4} key={item.id}>
                 <Card isPressable>
                   <Card.Body css={{ p: 10 }}>
                     <Card.Image
@@ -29,31 +29,10 @@ const Cases = () => {
                       wrap="wrap"
                       justify="space-between"
                     >
-                      <Text
-                        b
-                        css={{
-                          paddingLeft: 15,
-                          fontSize: 20,
-                          letterSpacing: 0.6,
-                          fontWeight: 700,
-                        }}
-                      >
-                        {item.title}
-                      </Text>
-                      <Text
-                        css={{
-                          paddingTop: 15,
-                          paddingLeft: 15,
-                          color: "$accents7",
-                          fontWeight: "$semibold",
-                          fontSize: "$md",
-                          width: "90%",
-                        }}
-                      >
-                        {item.text}
-                      </Text>
+                      <div className={s.title}>{item.title}</div>
+                      <div className={s.text}>{item.text}</div>
                       <div className={s.collect}>
-                        {item.collect}{" "}
+                        {item.collect}
                         <span className={s.already}>{item.already}</span>
                       </div>
                       <Button

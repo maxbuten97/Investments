@@ -1,9 +1,11 @@
+/**Интерфейс для карточек с расчётами */
 interface ICalculatePercent {
   id: string;
   num: string;
   calculate: string;
   text: string;
 }
+/** Список карточек с расчётами */
 export const calculatePercents: ICalculatePercent[] = [
   {
     id: "1",

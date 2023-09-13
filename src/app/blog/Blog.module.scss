@@ -1,11 +1,27 @@
-.Cases {
-	margin-top: 150px;
+.Blog {
+	background: rgb(250, 250, 250);
+	background: linear-gradient(0deg, #f6f2f2 0%, rgba(241, 241, 241, 1) 95%, rgba(210, 210, 210, 0.822) 100%);
 }
 
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
 	height: 100%;
+}
+
+.title {
+	padding: 50px 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	padding: 25px 0;
 }
 
 .collect {
@@ -28,7 +44,7 @@
 	margin: 0 auto;
 	margin-top: 40px;
 }
-.title {
+.title_card {
 	padding-left: 15px;
 	font-size: 20px;
 	letter-spacing: 0.6px;
