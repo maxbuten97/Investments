@@ -1,10 +1,11 @@
+/** Интерфейс для этапов */
 interface IStages {
   id: string;
   title: string;
   text: string;
   num: string;
 }
-
+/**Список этапов на инвестирования на главной странице */
 export const stages: IStages[] = [
   {
     id: "1",

@@ -1,10 +1,11 @@
-export interface IQuestionForCompanies {
+/** Интерфейс для вопросов и ответов для инвесторов */
+export interface IQuestionForInvestors {
   id: string;
   title: string;
   text: string;
 }
-
-export const questions: IQuestionForCompanies[] = [
+/** Список вопросов и ответов для инвесторов */
+export const questions: IQuestionForInvestors[] = [
   {
     id: "1",
     title: "Я выбрал акции на платформе как их оплатить ?",

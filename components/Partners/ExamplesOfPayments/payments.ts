@@ -1,10 +1,11 @@
+/** Интерфейс для карточек с примером расчёта */
 export interface IPaymentItem {
   id: string;
   image: string;
   text: string;
   boldText: string;
 }
-
+/** Список карточек с примером расчёта вознаграждения */
 export const payments: IPaymentItem[] = [
   {
     id: "1",

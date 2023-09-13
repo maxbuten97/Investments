@@ -1,9 +1,10 @@
+/**Интерфейс для списка с вопросами */
 export interface IQuestion {
   id: string;
   title: string;
   text: string;
 }
-
+/** Список вопросов на главной странице */
 export const questions: IQuestion[] = [
   {
     id: "1",
