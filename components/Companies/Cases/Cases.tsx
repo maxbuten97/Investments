@@ -1,8 +1,8 @@
 "use client";
 import { Grid, Card, Row, Text, Button } from "@nextui-org/react";
 import s from "./Cases.module.scss";
-import { PATH } from "@/components/Header/Header";
 import { list } from "./case";
+import { PATH } from "shared/assets";
 
 const Cases = () => {
   return (

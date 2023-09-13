@@ -1,4 +1,4 @@
-import { PATH } from "@/components/Header/Header";
+import { PATH } from "shared/assets";
 import s from "./Visor.module.scss";
 import Image from "next/image";
 import Link from "next/link";

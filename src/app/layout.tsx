@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import { Navigation } from "public/svg";
+import Navigation from "@/components/Navigation/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,10 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <Header />
-      <Navigation />
-      <body className={inter.className}>{children}</body>
-      <Footer />
+      <body>
+        <Header />
+        <Navigation />
+        <main className={inter.className}>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

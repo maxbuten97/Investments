@@ -1,6 +1,6 @@
 import { Button, Input, Link } from "@nextui-org/react";
 import s from "./Callback.module.scss";
-import { PATH } from "@/components/Header/Header";
+import { PATH } from "shared/assets";
 import Image from "next/image";
 
 export interface ICallbackProps {

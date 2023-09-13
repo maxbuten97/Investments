@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Text, Button } from "@nextui-org/react";
 import s from "./CardItem.module.scss";
-import { PATH } from "@/components/Header/Header";
+import { PATH } from "shared/assets";
 
 const CardItem = () => {
   return (

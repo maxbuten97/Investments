@@ -1,5 +1,5 @@
 "use client";
-import { PATH } from "@/components/Header/Header";
+import { PATH } from "shared/assets";
 import s from "./Promo.module.scss";
 import Image from "next/image";
 

@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import s from "./Become.module.scss";
-import { PATH } from "@/components/Header/Header";
 import Icon from "@/components/IconComponent/Icon";
 import Callback from "shared/UI-kit/Callback/Callback";
+import { PATH } from "shared/assets";
 const Become = () => {
   return (
     <div className={s.Become}>

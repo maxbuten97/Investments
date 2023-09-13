@@ -1,5 +1,5 @@
 "use client";
-import { PATH } from "@/components/Header/Header";
+import { PATH } from "shared/assets";
 import s from "./Specifications.module.scss";
 import Image from "next/image";
 import Icon from "@/components/IconComponent/Icon";
