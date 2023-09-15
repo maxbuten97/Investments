@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-        <Header />
-        <Navigation />
-        <main className={inter.className}>{children}</main>
+        <div className="container">
+          <Header />
+          <Navigation />
+          <main className={inter.className}>{children}</main>
+        </div>
         <Footer />
       </body>
     </html>

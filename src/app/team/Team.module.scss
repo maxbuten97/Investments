@@ -1,0 +1,36 @@
+.Team {
+	background: linear-gradient(0deg, #f6f2f2 0%, rgba(241, 241, 241, 1) 95%, rgba(210, 210, 210, 0.822) 100%);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.title {
+	padding-top: 50px;
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cards {
+	margin-top: 50px;
+}
+
+.title_card {
+	padding-left: 15px;
+	font-size: 20px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+}
+.time_reading {
+	margin: 15px 0;
+	padding-left: 15px;
+	font-weight: 500;
+	font-size: 16px;
+	width: 90%;
+}
