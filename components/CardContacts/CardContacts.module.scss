@@ -1,0 +1,59 @@
+.CardContacts {
+	width: 657px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(122, 12, 232, 1);
+	padding: 25px 20px;
+	border-radius: 26px 26px 0 0;
+	width: 100%;
+}
+.content {
+	background-color: #fff;
+	padding: 25px 50px;
+	border-radius: 0 0 26px 26px;
+}
+.main {
+	font-size: 25px;
+	margin-top: 50px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	background-color: #fff;
+	max-width: 450px;
+}
+
+.title {
+	background-color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 25px;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 75px;
+	max-width: 548px;
+}
+
+.socials {
+	display: flex;
+	gap: 15px;
+	padding-bottom: 30px;
+}
+
+.tel,
+.email {
+	display: flex;
+	gap: 15px;
+}
+
+.tel path {
+	fill: rgba(122, 12, 232, 1);
+}
+.tel svg {
+	margin-top: 8px;
+	width: 20px;
+	height: 20px;
+}
