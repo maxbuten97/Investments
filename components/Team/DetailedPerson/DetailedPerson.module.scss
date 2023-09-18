@@ -1,0 +1,75 @@
+.DetailedPerson {
+	padding: 100px 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	justify-content: center;
+}
+
+.card {
+	width: 95%;
+	position: relative;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.title {
+	padding: 25px;
+	display: flex;
+	gap: 50px;
+	justify-content: flex-end;
+	border-radius: 12px 12px 0 0;
+	background-color: rgba(233, 233, 233, 1);
+}
+
+.name {
+	font-size: 30px;
+	font-weight: 700px;
+}
+
+.description {
+	width: 570px;
+	font-size: 15px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+
+.characteristic {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #fff;
+	border-radius: 0 0 12px 12px;
+	line-height: 40px;
+	padding-bottom: 40px;
+	height: 390px;
+}
+.avatar {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-color: rgba(225, 195, 255, 1);
+	border-radius: 12px;
+}
+
+.img {
+	display: flex;
+	object-fit: cover;
+}
+
+.list_char {
+	padding-top: 10px;
+	width: 42%;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
