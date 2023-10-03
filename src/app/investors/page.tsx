@@ -6,7 +6,6 @@ import SuccessDeals from "../../../components/Investors/SuccessDeals/SuccessDeal
 import Stages from "../../../components/Investors/Stages/Stages";
 import QuestionsInvestors from "../../../components/Investors/QuestionsInvestors/QuestionsInvestors";
 import FormInvestments from "../../../components/Companies/FormInvestments/FormInvestments";
-
 const Investors = () => {
   return (
     <div className={s.Investors}>

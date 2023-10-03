@@ -8,7 +8,7 @@ import DetailedPerson from "@/components/Team/DetailedPerson/DetailedPerson";
 import Image from "next/image";
 import CardContacts from "@/components/CardContacts/CardContacts";
 
-const page = () => {
+const Team = () => {
   return (
     <div className={s.Team}>
       <div className={s.container}>
@@ -74,4 +74,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Team;
