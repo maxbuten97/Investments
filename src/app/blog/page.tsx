@@ -1,16 +1,14 @@
 "use client";
 
-import { cases } from "@/components/Companies/Cases/case";
 import { Grid, Card, Row, Button, Pagination } from "@nextui-org/react";
 import { PATH } from "shared/assets";
 import s from "./Blog.module.scss";
 import { blogCards, titleBlog } from "./blogCards";
 
-const page = () => {
+const Blog = () => {
   return (
     <div className={s.Blog}>
       <div className={s.container}>
-        {" "}
         <div className={s.content}>
           <div className={s.titles}>
             {titleBlog.map((title) => {
@@ -60,4 +58,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Blog;

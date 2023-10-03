@@ -1,12 +1,11 @@
 "use client";
 
-import Cases from "@/components/Companies/Cases/Cases";
 import s from "./Cases.module.scss";
 import { Button, Card, Grid, Pagination, Row } from "@nextui-org/react";
 import { cases } from "@/components/Companies/Cases/case";
 import { PATH } from "shared/assets";
 
-const page = () => {
+const Cases = () => {
   return (
     <div className={s.Cases}>
       <div className={s.container}>
@@ -66,4 +65,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Cases;

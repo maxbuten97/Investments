@@ -42,10 +42,12 @@ const Header = () => {
               </Button>
             </div>
             <div className={s.account}>
-              <Button color="secondary" auto ghost onPress={handler}>
-                ЛИЧНЫЙ КАБИНЕТ
-              </Button>
-              <Modal
+              <Link href="/account">
+                <Button color="secondary" auto ghost onPress={handler}>
+                  ЛИЧНЫЙ КАБИНЕТ
+                </Button>
+              </Link>
+              {/* <Modal
                 closeButton
                 aria-labelledby="modal-title"
                 open={visible}
@@ -93,7 +95,7 @@ const Header = () => {
                     Sign in
                   </Button>
                 </Modal.Footer>
-              </Modal>
+              </Modal> */}
             </div>
           </div>
         </div>

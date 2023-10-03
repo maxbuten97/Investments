@@ -8,6 +8,7 @@ import Questions from "@/components/Companies/Questions/Questions";
 import Visor from "@/components/Companies/Visor/Visor";
 import WhyBlock from "@/components/Companies/WhyBlock/WhyBlock";
 import BannerCompanies from "@/components/Companies/BannerCompanies/BannerCompanies";
+
 const Companies = () => {
   return (
     <div className={s.Companies}>
