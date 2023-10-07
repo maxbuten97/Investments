@@ -1,0 +1,67 @@
+.container {
+	max-width: 1335px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+	border-top: 1px solid rgba(187, 187, 187, 1);
+	border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.link {
+	transition: color 0.4s ease;
+	width: 200px;
+	color: rgba(32, 21, 44, 1);
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.link:hover {
+	color: rgba(0, 0, 0, 0.514); /* Задержка 0.4 секунды перед изменением цвета */
+}
+
+.logo {
+	margin-right: 5px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.image {
+	margin-top: 15px;
+}
+.name {
+	font-weight: 700;
+	font-size: 32px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	font-size: 12px;
+	color: rgba(32, 21, 44, 0.5);
+}
+.copy {
+	max-width: 300px;
+}
+
+.support {
+	margin-right: 20px;
+}

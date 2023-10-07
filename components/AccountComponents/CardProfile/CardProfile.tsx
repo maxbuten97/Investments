@@ -45,11 +45,6 @@ const CardProfile = () => {
             ПРИГЛАСИТЬ ДРУГА
           </Button>
         </div>
-        <div className={s.support}>
-          <Button color="secondary" size="xl" css={{ width: "100%" }}>
-            ТЕХ ПОДДЕРЖКА
-          </Button>
-        </div>
       </div>
     </div>
   );
