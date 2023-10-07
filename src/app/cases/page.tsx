@@ -1,5 +1,4 @@
 "use client";
-
 import s from "./Cases.module.scss";
 import { Button, Card, Grid, Pagination, Row } from "@nextui-org/react";
 import { cases } from "@/components/Companies/Cases/case";

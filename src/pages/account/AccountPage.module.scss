@@ -7,7 +7,9 @@
 	max-width: 1335px;
 	margin: 0 auto;
 	height: 100%;
-	min-height: calc(100vh - 330px);
+}
+.container_for_content {
+	min-height: calc(100vh - 286px);
 }
 .background {
 	position: absolute;
@@ -29,4 +31,8 @@
 .content,
 .footer {
 	width: 100%;
+}
+
+.content {
+	height: 700px;
 }

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import s from "./HeaderAccount.module.scss";
-import { navLinkAccount } from "./linksAccount";
-import { Button } from "@nextui-org/react";
+import { navLinkAccount } from "./linksHeaderAccount";
 import Image from "next/image";
 import { PATH } from "shared/assets";
+import { Button } from "@nextui-org/react";
 
 const HeaderAccount = () => {
   return (
