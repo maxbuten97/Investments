@@ -1,0 +1,77 @@
+.VirtualAccount {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+}
+
+.cards {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.active_card,
+.profit_card {
+	flex-basis: 50%;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.header_card {
+	font-weight: 700;
+	font-size: 19px;
+	padding: 37.5px 50px;
+	background-color: rgba(222, 188, 255, 1);
+	color: rgba(76, 53, 99, 1);
+	text-transform: uppercase;
+	border-radius: 12px 12px 0 0;
+}
+
+.content {
+	padding: 40px;
+}
+
+.balance,
+.investment,
+.partners {
+	font-size: 22px;
+	font-weight: 700;
+	color: rgba(76, 53, 99, 1);
+	border-bottom: 1px solid rgba(73, 72, 72, 0.4);
+	padding-bottom: 20px;
+}
+
+.balance,
+.reserve,
+.available,
+.available_partners {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	color: rgba(76, 53, 99, 1);
+}
+
+.rub {
+	font-weight: 700;
+}
+
+.more_block {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.btn {
+	margin-top: 70px;
+}
+
+.available_partners {
+	margin-top: 30px;
+}
