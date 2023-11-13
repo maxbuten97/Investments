@@ -1,12 +1,10 @@
 import HeaderAccount from "@/components/AccountComponents/HeaderAccount/HeaderAccount";
-import s from "./AccountPage.module.scss";
+import s from "./Wallet.module.scss";
 import FooterAccount from "@/components/AccountComponents/FooterAccount/FooterAccount";
-import "../../app/globals.scss";
+import "../../../app/globals.scss";
 import CardProfile from "@/components/AccountComponents/CardProfile/CardProfile";
 import NavCardAccount from "@/components/AccountComponents/HomeAccount/NavCardAccount/NavCardAccount";
-import ProjectsAccount from "@/components/AccountComponents/HomeAccount/ProjectsAccount/ProjectsAccount";
 import VirtualAccount from "@/components/AccountComponents/HomeAccount/VirtualAccount/VirtualAccount";
-import { Pagination } from "@nextui-org/react";
 const page = () => {
   return (
     <div className={s.home}>
@@ -21,19 +19,6 @@ const page = () => {
           </div>
           <div className={s.content}>
             <NavCardAccount />
-            <div className={s.header_projects}>
-              <div className={s.title}>ПРОЕКТЫ &gt;</div>
-              <div className={s.pagination}>
-                <Pagination
-                  bordered
-                  rounded
-                  total={2}
-                  initialPage={6}
-                  onlyDots
-                />
-              </div>
-            </div>
-            <ProjectsAccount />
             <VirtualAccount />
           </div>
         </div>

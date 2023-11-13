@@ -11,6 +11,7 @@ const CardProfile = () => {
       <div className={s.card}>
         <div className={s.avatar}>
           <Image
+            className={s.ava}
             src={`${PATH}sashkoAva.png`}
             alt={"avatar"}
             width={155}
