@@ -14,4 +14,4 @@ export { default as Time } from "./time.svg";
 export { default as Search } from "./search.svg";
 export { default as PinkArrow } from "./pinkArrow.svg";
 export { default as Union } from "./union.svg";
-export { default as Diamond } from "./Diamond.svg";
+export { default as Diamond } from "./diamond.svg";
