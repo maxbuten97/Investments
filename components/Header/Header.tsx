@@ -44,7 +44,7 @@ const Header = () => {
             <div className={s.account}>
               <Link href="/account">
                 <Button color="secondary" auto ghost onPress={handler}>
-                  ЛИЧНЫЙ КАБИНЕТ
+                  ВОЙТИ
                 </Button>
               </Link>
               {/* <Modal

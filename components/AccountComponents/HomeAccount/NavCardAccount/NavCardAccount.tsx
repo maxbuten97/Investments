@@ -20,18 +20,6 @@ const NavCardAccount = () => {
             </Link>
           );
         })}
-        {/* <div className={s.card}>
-            <div className={s.title}>Виртуальный счёт</div>
-            <div className={s.descr}>
-              Инвестору предлагается приобрести обыкновенные акции АО «Морето»
-            </div>
-          </div>
-          <div className={s.card}>
-            <div className={s.title}>Виртуальный счёт</div>
-            <div className={s.descr}>
-              Инвестору предлагается приобрести обыкновенные акции АО «Морето»
-            </div>
-          </div> */}
       </div>
     </div>
   );

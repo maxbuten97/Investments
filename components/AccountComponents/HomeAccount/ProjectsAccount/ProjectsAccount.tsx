@@ -14,12 +14,6 @@ import { projectsAccount } from "./projectsHome";
 const ProjectsAccount = () => {
   return (
     <div className={s.ProjectsAccount}>
-      <div className={s.header}>
-        <div className={s.title}>ПРОЕКТЫ &gt;</div>
-        <div className={s.pagination}>
-          <Pagination bordered rounded total={2} initialPage={6} onlyDots />
-        </div>
-      </div>
       <Grid.Container css={{ p: 0 }} gap={2} justify="space-between">
         {projectsAccount.map((item, index) => (
           <Grid xs={6} key={item.id}>

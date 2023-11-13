@@ -5,8 +5,8 @@ interface INavLinkAccount {
 }
 
 export const navLinkAccount: INavLinkAccount[] = [
-  { id: "1", link: "кошелек", src: "/" },
-  { id: "2", link: "портфель", src: "/" },
-  { id: "3", link: "уведомления", src: "/" },
-  { id: "4", link: "проекты", src: "/" },
+  { id: "1", link: "кошелек", src: "/account/wallet" },
+  { id: "2", link: "портфель", src: "/account" },
+  { id: "3", link: "уведомления", src: "/account" },
+  { id: "4", link: "проекты", src: "/account/projects" },
 ];
